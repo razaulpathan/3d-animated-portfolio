@@ -1,0 +1,51 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #fff;
+}
+
+.section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 60px 20px;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, rgba(15, 12, 41, 0.9), rgba(48, 43, 99, 0.9));
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.projects-section {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  flex-direction: column;
+}
+
+.skills-section {
+  background: linear-gradient(135deg, #0f3460, #533483);
+  flex-direction: column;
+}
+
+.contact-section {
+  background: linear-gradient(135deg, #0f0c29, #302b63);
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .section {
+    min-height: auto;
+    padding: 40px 20px;
+  }
+}
