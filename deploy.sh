@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Build and deploy to GitHub Pages\necho "🚀 Building portfolio..."\nnpm run build\n\necho "📤 Deploying to GitHub Pages..."\ngh-pages -d build\n\necho "✅ Deployment complete!"\necho "🔗 Visit: https://razaulpathan.github.io/3d-animated-portfolio"\n
